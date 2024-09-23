@@ -1,0 +1,91 @@
+body {
+    background-color: aquamarine;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: white;
+    color: red;
+    margin: 10px 10%;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    text-align: left;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.500);}
+
+header img {
+    height: 100px;
+    margin-right: 20px;
+}
+
+header h1 {
+    font-size: 24px;
+    padding-left: 18%;
+}
+
+nav {
+    height: 50px;
+    background-color: #0086cc;
+    margin: 10px 10%;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 20px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.500);}
+
+nav a {
+    color: white;
+    font-size: 20px;
+    padding: 0 20px;
+}
+
+section {
+    background-color: #50aeff;
+    margin: 10px 10%;
+    border-radius: 15px;
+    padding: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.500);}
+
+h2 {
+    text-align: center;
+    font-size: 24px;
+    color: white;
+}
+
+p {
+    text-align: justify;
+    width: 70%;
+    margin: 10px;
+    left: 3%;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+#Raspberry {
+    width: 20%;
+    position: absolute;
+    right: 12%;
+    top: 42%;
+}
+
+footer {
+    background-color: white;
+    color: black;
+    text-align: justify;
+    position: relative;
+    margin: 10px 10%;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.500);
+}
+
+footer p {
+    position: relative;
+    left: 14%;
+    text-align: center;
+}
