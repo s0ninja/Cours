@@ -1,0 +1,94 @@
+body {
+    background-color: aquamarine;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: white;
+    color: red;
+    margin: 10px 10%;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+header img {
+    height: 100px;
+    margin-right: 20px;
+}
+
+header h1 {
+    font-size: 24px;
+    padding-left: 18%;
+}
+
+nav {
+    height: 50px;
+    background-color: #0086cc;
+    margin: 10px 10%;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 20px;
+}
+
+nav a {
+    color: white;
+    font-size: 20px;
+    padding: 0 20px;
+}
+
+section {
+    background-color: #50aeff;
+    margin: 10px 10%;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 24px;
+    color: white;
+}
+
+p {
+    text-align: justify;
+    width:65%;
+    margin: 10px;
+    left: 3%;
+    color: bisque;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    color: bisque;
+    position: relative;
+    left: 150px;
+}
+
+#Raspberry {
+    width: 20%;
+    position: absolute;
+    right: 15%;
+    top: 38%;
+}
+
+footer {
+    background-color: white;
+    color: black;
+    text-align: justify;
+    position: relative;
+    margin: 10px 10%;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+footer p {
+    position: relative;
+    left: 14%;
+    text-align: center;
+    color:#0086cc
+}
